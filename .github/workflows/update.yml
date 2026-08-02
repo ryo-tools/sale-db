@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Run Build Script (Generate SEO Pages)
-        run: node scripts/fetch-dlsite.js
+        run: node scripts/fetch-sales.js
 
       - name: Post to Bluesky (Free SNS Auto-Post)
         env:
