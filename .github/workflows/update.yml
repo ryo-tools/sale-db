@@ -30,12 +30,6 @@ jobs:
       - name: Run Build Script (Generate SEO Pages)
         run: node scripts/fetch-sales.js
 
-      - name: Post to Bluesky (Free SNS Auto-Post)
-        env:
-          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
-          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
-        run: node scripts/post-bluesky.js
-
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,4 +38,3 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Sale DB content" && git pull --rebase origin main && git push origin main)
-          
