@@ -151,31 +151,44 @@
         if (!res.ok) throw new Error('データが見つかりません');
         const items = await res.json();
 
-        grid.innerHTML = items.map(item => `
-          <div class="card">
-            ${item.lowestStore ? `<div class="badge-lowest">最安値: ${item.lowestStore} (¥${item.lowestPrice.toLocaleString()})</div>` : ''}
-            <div class="img-wrap">
-              <img src="${item.imageUrl}" alt="${item.title}" loading="lazy" referrerpolicy="no-referrer">
-            </div>
-            <div class="content">
-              <div class="title">${item.title}</div>
-              <div class="store-list">
-                <a href="${item.stores.amazon.url}" target="_blank" rel="noopener" class="store-item">
-                  <span class="store-name" style="color:var(--amazon)">Amazon</span>
-                  <span class="store-price ${item.lowestStore === 'Amazon' ? 'lowest' : ''}">${item.stores.amazon.price ? '¥' + item.stores.amazon.price.toLocaleString() : '確認'}</span>
-                </a>
-                <a href="${item.stores.rakuten.url}" target="_blank" rel="noopener" class="store-item">
-                  <span class="store-name" style="color:var(--rakuten)">楽天市場</span>
-                  <span class="store-price ${item.lowestStore === '楽天市場' ? 'lowest' : ''}">${item.stores.rakuten.price ? '¥' + item.stores.rakuten.price.toLocaleString() : '確認'}</span>
-                </a>
-                <a href="${item.stores.yahoo.url}" target="_blank" rel="noopener" class="store-item">
-                  <span class="store-name" style="color:var(--yahoo)">Yahoo!</span>
-                  <span class="store-price ${item.lowestStore === 'Yahoo!ショッピング' ? 'lowest' : ''}">${item.stores.yahoo.price ? '¥' + item.stores.yahoo.price.toLocaleString() : '確認'}</span>
-                </a>
+        grid.innerHTML = items.map(item => {
+          // データ構造が旧データ等の場合でも絶対にエラー落ちしないための安全ガード
+          const stores = item.stores || {};
+          const amz = stores.amazon || { price: item.currentPrice || null, url: item.shopUrl || '#' };
+          const rak = stores.rakuten || { price: null, url: '#' };
+          const yah = stores.yahoo || { price: null, url: '#' };
+
+          const lowestStore = item.lowestStore || (amz.price ? 'Amazon' : '');
+          const lowestPrice = item.lowestPrice || amz.price;
+
+          const imgUrl = item.imageUrl || (item.asin ? `https://images-na.ssl-images-amazon.com/images/P/${item.asin}.01.LZZZZZZZ.jpg` : '');
+
+          return `
+            <div class="card">
+              ${lowestStore && lowestPrice ? `<div class="badge-lowest">最安: ${lowestStore} (¥${lowestPrice.toLocaleString()})</div>` : ''}
+              <div class="img-wrap">
+                <img src="${imgUrl}" alt="${item.title || ''}" loading="lazy" referrerpolicy="no-referrer">
+              </div>
+              <div class="content">
+                <div class="title">${item.title || '名称不明の商品'}</div>
+                <div class="store-list">
+                  <a href="${amz.url}" target="_blank" rel="noopener" class="store-item">
+                    <span class="store-name" style="color:var(--amazon)">Amazon</span>
+                    <span class="store-price ${lowestStore === 'Amazon' ? 'lowest' : ''}">${amz.price ? '¥' + amz.price.toLocaleString() : '確認'}</span>
+                  </a>
+                  <a href="${rak.url}" target="_blank" rel="noopener" class="store-item">
+                    <span class="store-name" style="color:var(--rakuten)">楽天市場</span>
+                    <span class="store-price ${lowestStore === '楽天市場' ? 'lowest' : ''}">${rak.price ? '¥' + rak.price.toLocaleString() : '確認'}</span>
+                  </a>
+                  <a href="${yah.url}" target="_blank" rel="noopener" class="store-item">
+                    <span class="store-name" style="color:var(--yahoo)">Yahoo!</span>
+                    <span class="store-price ${lowestStore === 'Yahoo!ショッピング' ? 'lowest' : ''}">${yah.price ? '¥' + yah.price.toLocaleString() : '確認'}</span>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        `).join('');
+          `;
+        }).join('');
       } catch (err) {
         grid.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 40px;">エラー: ${err.message}</div>`;
       }
