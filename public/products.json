@@ -1,80 +1,83 @@
 [
   {
-    "id": "asin-B08N5WRWNW",
-    "asin": "B08N5WRWNW",
-    "title": "Kioxia EXCERIA G2 NVMe SSD 2TB M.2 Type 2280",
+    "id": "ssd-kioxia-2tb",
+    "title": "Kioxia EXCERIA G2 NVMe SSD 2TB",
     "category": "pc",
     "categoryName": "PCパーツ",
-    "currentPrice": 0,
-    "originalPrice": null,
-    "discountRate": 0,
-    "imageUrl": "",
-    "shopUrl": "https://www.amazon.co.jp/dp/B08N5WRWNW",
-    "updatedAt": "2026-08-02T11:12:47.547Z"
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08N5WRWNW.01.LZZZZZZZ.jpg",
+    "lowestPrice": null,
+    "lowestStore": "楽天市場",
+    "stores": {
+      "amazon": {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.co.jp/dp/B08N5WRWNW"
+      },
+      "rakuten": {
+        "store": "楽天市場",
+        "price": null,
+        "url": "https://item.rakuten.co.jp/bigtonya/hardevacase-data/?variantId=hardevacase-data-w13"
+      },
+      "yahoo": {
+        "store": "Yahoo!ショッピング",
+        "price": null,
+        "url": "https://shopping.yahoo.co.jp/search?p=Kioxia%20EXCERIA%20G2%202TB%20SSD"
+      }
+    },
+    "updatedAt": "2026-08-02T14:24:01.934Z"
   },
   {
-    "id": "asin-B0BFL119YF",
-    "asin": "B0BFL119YF",
-    "title": "Anker 737 Power Bank (PowerCore 24000) 140W出力 24000mAh",
+    "id": "anker-737-powerbank",
+    "title": "Anker 737 Power Bank (24000mAh 140W)",
     "category": "gadget",
     "categoryName": "ガジェット",
-    "currentPrice": 0,
-    "originalPrice": null,
-    "discountRate": 0,
-    "imageUrl": "",
-    "shopUrl": "https://www.amazon.co.jp/dp/B0BFL119YF",
-    "updatedAt": "2026-08-02T11:12:49.677Z"
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BFL119YF.01.LZZZZZZZ.jpg",
+    "lowestPrice": null,
+    "lowestStore": "楽天市場",
+    "stores": {
+      "amazon": {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.co.jp/dp/B0BFL119YF"
+      },
+      "rakuten": {
+        "store": "楽天市場",
+        "price": null,
+        "url": "https://item.rakuten.co.jp/motomoto/fe-tpu-glare-ld00021-zf/?variantId=fe-tpu-glare-ld00021-zf"
+      },
+      "yahoo": {
+        "store": "Yahoo!ショッピング",
+        "price": null,
+        "url": "https://shopping.yahoo.co.jp/search?p=Anker%20737%20Power%20Bank%2024000mAh"
+      }
+    },
+    "updatedAt": "2026-08-02T14:24:21.295Z"
   },
   {
-    "id": "asin-B01C20I8S8",
-    "asin": "B01C20I8S8",
-    "title": "明治 ザバス(SAVAS) ホエイプロテイン100 リッチショコラ味 1,000g",
+    "id": "savas-whey-protein-1k",
+    "title": "ザバス ホエイプロテイン100 リッチショコラ味 1kg",
     "category": "fitness",
     "categoryName": "サプリ・健康",
-    "currentPrice": 0,
-    "originalPrice": null,
-    "discountRate": 0,
-    "imageUrl": "",
-    "shopUrl": "https://www.amazon.co.jp/dp/B01C20I8S8",
-    "updatedAt": "2026-08-02T11:12:51.799Z"
-  },
-  {
-    "id": "asin-B07Z344MDR",
-    "asin": "B07Z344MDR",
-    "title": "アタックZERO 洗濯洗剤 詰め替え 2150g 大容量",
-    "category": "daily",
-    "categoryName": "日用品",
-    "currentPrice": 0,
-    "originalPrice": null,
-    "discountRate": 0,
-    "imageUrl": "",
-    "shopUrl": "https://www.amazon.co.jp/dp/B07Z344MDR",
-    "updatedAt": "2026-08-02T11:12:53.925Z"
-  },
-  {
-    "id": "asin-B08HG3YFGG",
-    "asin": "B08HG3YFGG",
-    "title": "SanDisk microSDXC 256GB Ultra 120MB/s SDSQUA4-256G",
-    "category": "pc",
-    "categoryName": "PCパーツ",
-    "currentPrice": 0,
-    "originalPrice": null,
-    "discountRate": 0,
-    "imageUrl": "",
-    "shopUrl": "https://www.amazon.co.jp/dp/B08HG3YFGG",
-    "updatedAt": "2026-08-02T11:12:56.044Z"
-  },
-  {
-    "id": "asin-B09V33SGHQ",
-    "asin": "B09V33SGHQ",
-    "title": "エクスプロージョン ホエイプロテイン 3kg ミルクチョコ味",
-    "category": "fitness",
-    "categoryName": "サプリ・健康",
-    "currentPrice": 0,
-    "originalPrice": null,
-    "discountRate": 0,
-    "imageUrl": "",
-    "shopUrl": "https://www.amazon.co.jp/dp/B09V33SGHQ",
-    "updatedAt": "2026-08-02T11:12:58.163Z"
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01C20I8S8.01.LZZZZZZZ.jpg",
+    "lowestPrice": null,
+    "lowestStore": "楽天市場",
+    "stores": {
+      "amazon": {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.co.jp/dp/B01C20I8S8"
+      },
+      "rakuten": {
+        "store": "楽天市場",
+        "price": null,
+        "url": "https://item.rakuten.co.jp/welpark/4902777300269/?variantId=4902777300269"
+      },
+      "yahoo": {
+        "store": "Yahoo!ショッピング",
+        "price": null,
+        "url": "https://shopping.yahoo.co.jp/search?p=%E3%82%B6%E3%83%90%E3%82%B9%20%E3%83%9B%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3100%20%E3%83%AA%E3%83%83%E3%83%81%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%201kg"
+      }
+    },
+    "updatedAt": "2026-08-02T14:24:39.884Z"
   }
 ]
