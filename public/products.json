@@ -24,7 +24,7 @@
         "url": "https://shopping.yahoo.co.jp/search?p=Kioxia%20EXCERIA%20G2%202TB%20SSD"
       }
     },
-    "updatedAt": "2026-08-24T13:42:33.365Z"
+    "updatedAt": "2026-08-25T13:41:28.323Z"
   },
   {
     "id": "anker-737-powerbank",
@@ -51,7 +51,7 @@
         "url": "https://shopping.yahoo.co.jp/search?p=Anker%20737%20Power%20Bank%2024000mAh"
       }
     },
-    "updatedAt": "2026-08-24T13:42:56.217Z"
+    "updatedAt": "2026-08-25T13:41:50.060Z"
   },
   {
     "id": "savas-whey-protein-1k",
@@ -60,7 +60,7 @@
     "categoryName": "サプリ・健康",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01C20I8S8.01.LZZZZZZZ.jpg",
     "lowestPrice": null,
-    "lowestStore": null,
+    "lowestStore": "楽天市場",
     "stores": {
       "amazon": {
         "store": "Amazon",
@@ -70,7 +70,7 @@
       "rakuten": {
         "store": "楽天市場",
         "price": null,
-        "url": "https://search.rakuten.co.jp/search/mall/%E3%82%B6%E3%83%90%E3%82%B9%20%E3%83%9B%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3100%20%E3%83%AA%E3%83%83%E3%83%81%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%201kg/"
+        "url": "https://item.rakuten.co.jp/bungubin/e53835/?variantId=e53835"
       },
       "yahoo": {
         "store": "Yahoo!ショッピング",
@@ -78,6 +78,6 @@
         "url": "https://shopping.yahoo.co.jp/search?p=%E3%82%B6%E3%83%90%E3%82%B9%20%E3%83%9B%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3100%20%E3%83%AA%E3%83%83%E3%83%81%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%201kg"
       }
     },
-    "updatedAt": "2026-08-24T13:43:07.555Z"
+    "updatedAt": "2026-08-25T13:42:08.503Z"
   }
 ]
