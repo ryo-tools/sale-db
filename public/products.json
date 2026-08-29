@@ -24,7 +24,7 @@
         "url": "https://shopping.yahoo.co.jp/search?p=Kioxia%20EXCERIA%20G2%202TB%20SSD"
       }
     },
-    "updatedAt": "2026-08-28T22:48:39.399Z"
+    "updatedAt": "2026-08-29T16:55:32.532Z"
   },
   {
     "id": "anker-737-powerbank",
@@ -33,7 +33,7 @@
     "categoryName": "ガジェット",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BFL119YF.01.LZZZZZZZ.jpg",
     "lowestPrice": null,
-    "lowestStore": null,
+    "lowestStore": "楽天市場",
     "stores": {
       "amazon": {
         "store": "Amazon",
@@ -43,7 +43,7 @@
       "rakuten": {
         "store": "楽天市場",
         "price": null,
-        "url": "https://search.rakuten.co.jp/search/mall/Anker%20737%20Power%20Bank%2024000mAh/"
+        "url": "https://item.rakuten.co.jp/pda/120pda60177600-ss20260604/?variantId=normal-inventory"
       },
       "yahoo": {
         "store": "Yahoo!ショッピング",
@@ -51,7 +51,7 @@
         "url": "https://shopping.yahoo.co.jp/search?p=Anker%20737%20Power%20Bank%2024000mAh"
       }
     },
-    "updatedAt": "2026-08-28T22:48:50.442Z"
+    "updatedAt": "2026-08-29T16:55:50.280Z"
   },
   {
     "id": "savas-whey-protein-1k",
@@ -60,7 +60,7 @@
     "categoryName": "サプリ・健康",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01C20I8S8.01.LZZZZZZZ.jpg",
     "lowestPrice": null,
-    "lowestStore": "楽天市場",
+    "lowestStore": null,
     "stores": {
       "amazon": {
         "store": "Amazon",
@@ -70,7 +70,7 @@
       "rakuten": {
         "store": "楽天市場",
         "price": null,
-        "url": "https://item.rakuten.co.jp/welpark/4902777300269/?variantId=4902777300269"
+        "url": "https://search.rakuten.co.jp/search/mall/%E3%82%B6%E3%83%90%E3%82%B9%20%E3%83%9B%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3100%20%E3%83%AA%E3%83%83%E3%83%81%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%201kg/"
       },
       "yahoo": {
         "store": "Yahoo!ショッピング",
@@ -78,6 +78,6 @@
         "url": "https://shopping.yahoo.co.jp/search?p=%E3%82%B6%E3%83%90%E3%82%B9%20%E3%83%9B%E3%82%A8%E3%82%A4%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3100%20%E3%83%AA%E3%83%83%E3%83%81%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%201kg"
       }
     },
-    "updatedAt": "2026-08-28T22:49:08.552Z"
+    "updatedAt": "2026-08-29T16:56:01.231Z"
   }
 ]
